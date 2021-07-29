@@ -17,17 +17,12 @@ interface CellProps {
  * Displays the component
  */
 class Cell extends Component<CellProps> {
-  constructor(props: CellProps) {
-    super(props);
-    this.handleClick = this.handleClick.bind(this);
-  }
-
   /**
    * Handles the event when clicking a cell
    */
-  handleClick() {
+  handleClick = () => {
     this.props.flipCellsAroundMe();
-  }
+  };
 
   render() {
     /**

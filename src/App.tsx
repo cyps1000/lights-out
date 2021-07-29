@@ -4,7 +4,11 @@ import { Component } from "react";
  * Imports components
  */
 import Board from "./components/Board";
-import Container from "./components/Container";
+
+/**
+ * Imports Styling
+ */
+import "./App.css";
 
 /**
  * Displays the component
@@ -12,9 +16,9 @@ import Container from "./components/Container";
 class App extends Component {
   render() {
     return (
-      <Container>
+      <div className="App">
         <Board />
-      </Container>
+      </div>
     );
   }
 }

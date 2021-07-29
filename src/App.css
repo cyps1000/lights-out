@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .App {
+    height: 75vh;
+  }
+  .Board-title .neon-blue {
+    font-size: 100px;
+  }
+
+  .Board-title .neon-orange {
+    font-size: 100px;
+  }
+  .Cell {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 426px) {
+  .App {
+    height: 55vh;
+  }
+  .Board-title .neon-blue {
+    font-size: 55px;
+  }
+
+  .Board-title .neon-orange {
+    font-size: 55px;
+  }
+  .Cell {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .App {
+    height: 65vh;
+  }
+  .Board-title .neon-blue {
+    font-size: 50px;
+  }
+
+  .Board-title .neon-orange {
+    font-size: 50px;
+  }
+  .Cell {
+    height: 55px;
+    width: 55px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 360px) {
+  .App {
+    height: 55vh;
+  }
+  .Board-title .neon-blue {
+    font-size: 55px;
+  }
+
+  .Board-title .neon-orange {
+    font-size: 55px;
+  }
+  .Cell {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 375px) {
+  .App {
+    height: 65vh;
+  }
+  .Board-title .neon-blue {
+    font-size: 60px;
+  }
+
+  .Board-title .neon-orange {
+    font-size: 60px;
+  }
+  .Cell {
+    height: 65px;
+    width: 65px;
+  }
+}

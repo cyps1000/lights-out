@@ -30,14 +30,14 @@ interface BoardState {
 /**
  * Displays the component
  */
-class Board extends Component<BoardProps, BoardState> {
+class Board extends Component<BoardProps> {
   /**
    * Defines the default props
    */
   static defaultProps: BoardProps = {
     nrows: 5,
     ncols: 5,
-    chanceLightStartsOn: 0.25
+    chanceLightStartsOn: 0.25,
   };
 
   /**
@@ -45,7 +45,7 @@ class Board extends Component<BoardProps, BoardState> {
    */
   state: BoardState = {
     hasWon: false,
-    board: this.createBoard()
+    board: this.createBoard(),
   };
 
   /**
